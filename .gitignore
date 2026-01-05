@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+ragenv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Chroma / vector DB files
+rag_db/
+*.sqlite3
+*.bin
+
+# Big binaries (avoid pushing compiled libs)
+*.dll
+*.pyd
